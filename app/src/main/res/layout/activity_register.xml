@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_vertical"
+    android:background="#F8F9FA"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/tvRegisterTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG KÝ TÀI KHOẢN"
+        android:textColor="#1976D2"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="28dp" />
+
+    <EditText
+        android:id="@+id/edtFullName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nhập Họ và tên"
+        android:textColorHint="#757575"
+        android:textColor="#212121"
+        android:inputType="textPersonName"
+        android:background="#FFFFFF"
+        android:paddingHorizontal="16dp"
+        android:layout_marginBottom="14dp" />
+
+    <EditText
+        android:id="@+id/edtRegisterEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nhập Email"
+        android:textColorHint="#757575"
+        android:textColor="#212121"
+        android:inputType="textEmailAddress"
+        android:background="#FFFFFF"
+        android:paddingHorizontal="16dp"
+        android:layout_marginBottom="14dp" />
+
+    <EditText
+        android:id="@+id/edtRegisterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nhập Mật khẩu"
+        android:textColorHint="#757575"
+        android:textColor="#212121"
+        android:inputType="textPassword"
+        android:background="#FFFFFF"
+        android:paddingHorizontal="16dp"
+        android:layout_marginBottom="14dp" />
+
+    <EditText
+        android:id="@+id/edtConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Xác nhận Mật khẩu"
+        android:textColorHint="#757575"
+        android:textColor="#212121"
+        android:inputType="textPassword"
+        android:background="#FFFFFF"
+        android:paddingHorizontal="16dp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnSubmitRegister"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="TẠO TÀI KHOẢN"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2196F3"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnBackToLogin"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="QUAY LẠI ĐĂNG NHẬP"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#424242"
+        android:backgroundTint="#EFEFEF" />
+
+</LinearLayout>

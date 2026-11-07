@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_vertical"
+    android:background="#F8F9FA"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG NHẬP"
+        android:textColor="#1976D2"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="32dp" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nhập Email / Tên đăng nhập"
+        android:textColorHint="#757575"
+        android:textColor="#212121"
+        android:inputType="textEmailAddress"
+        android:background="#FFFFFF"
+        android:paddingHorizontal="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nhập Mật khẩu"
+        android:textColorHint="#757575"
+        android:textColor="#212121"
+        android:inputType="textPassword"
+        android:background="#FFFFFF"
+        android:paddingHorizontal="16dp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="ĐĂNG NHẬP"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2196F3"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:backgroundTint="#EFEFEF"
+        android:text="ĐĂNG KÝ TÀI KHOẢN"
+        android:textColor="#424242"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
