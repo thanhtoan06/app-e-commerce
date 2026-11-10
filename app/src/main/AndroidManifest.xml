@@ -26,6 +26,12 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".ProductListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegisterActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
